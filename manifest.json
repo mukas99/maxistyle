@@ -1,0 +1,15 @@
+{
+  "code": "local.id.extractor",
+  "name": "ID Extractor",
+  "description": "Parses IDs from strings like 'user name [145], another [139]' and returns only the IDs.",
+  "version": "1.0.0",
+  "type": "REST",
+  "auth": {
+    "scope": [
+      "crm",
+      "bizproc",
+      "user"
+    ]
+  },
+  "handler": "https://YOUR_DOMAIN_HERE/id_extractor_app/index.php"
+}
